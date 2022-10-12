@@ -472,6 +472,9 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
+            elif ("bot" in msg):
+                reply = "Please entered full message"
+                sendMsg()
             elif ("bot ignore me" in msg):
                 reply = "yes"
                 sendMsg()
