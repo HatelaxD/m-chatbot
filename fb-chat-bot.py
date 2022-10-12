@@ -482,7 +482,7 @@ class ChatBot(Client):
                 reply = "Sure! What should I do?"
                 sendMsg()
             elif("clever" in msg):
-                reply = "Yes, i am clever. hope you will be clever soon."
+                reply = "Yes, hope you will be clever soon."
                 sendMsg()
             elif("bot tari ma ki chut" in msg):
                 reply = "tari ma ki nai ha?"
