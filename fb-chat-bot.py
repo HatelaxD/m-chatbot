@@ -475,8 +475,8 @@ class ChatBot(Client):
             elif ("*bot" in msg):
                 reply = "Please entered full message"
                 sendMsg()
-            elif ("bot ignore me" in msg):
-                reply = "yes"
+            elif ("bot Qj gandu ha na" in msg):
+                reply = "arre roz chdwata ha muj sa"
                 sendMsg()
             elif("bot help me" in msg):
                 reply = "Sure! What should I do?"
