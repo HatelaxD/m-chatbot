@@ -508,7 +508,7 @@ class ChatBot(Client):
             elif ("thanks" in msg):
                 reply = "You're welcome🙂"
                 sendMsg()
-            elif ("bot (ThreadType.USER) gandu ha na" in msg):
+            elif ("bot maan gandu ha na" in msg):
                 reply = "roz me iski gand marta hu"
                 sendMsg()
             elif ("bot hatela gandu ha na" in msg):
